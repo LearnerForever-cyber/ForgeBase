@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Build outputs (future)
+dist/
+.build/
+.next/
