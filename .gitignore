@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # OS
 .DS_Store
@@ -10,3 +11,10 @@
 dist/
 .build/
 .next/
+=======
+node_modules/
+.env
+.DS_Store
+.idea/
+.vscode/
+>>>>>>> eb70fbd1459545d68fa4253d93dcee2af0ca90c5
