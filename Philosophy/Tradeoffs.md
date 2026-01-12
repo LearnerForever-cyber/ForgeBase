@@ -1,8 +1,14 @@
 # Tradeoffs
 
-Every system makes tradeoffs.
+## Context
 
-Forgebase documents them explicitly.
+Adopting Forgebase means making deliberate choices about what to optimize for. This document explains the concrete tradeoffs involved.
+
+## When to Use This
+
+- **Read if:** You're deciding whether Forgebase fits your project's priorities
+- **Reference if:** You're negotiating scope or timeline with your team
+- **Skip if:** You've already committed to Forgebase's approach
 
 ---
 
@@ -77,3 +83,11 @@ Forgebase works best for:
 Tradeoffs are not flaws.
 
 They are **design choices**.
+
+---
+
+## Next Reads
+
+1. [Opinionated Decisions](Opinionated%20Decisions.md) — Review the specific decisions creating these tradeoffs
+2. [Architecture Overview](../Architecture/Overview.md) — See the benefits of these tradeoffs in system design
+3. [Guides Overview](../Guides/Overview.md) — See the practical benefits once you start building

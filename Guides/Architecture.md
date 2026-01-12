@@ -1,6 +1,14 @@
 # Architecture Overview
 
-Forgebase promotes a **layered, responsibility-driven architecture**.
+## Context
+
+This guide explains how Forgebase promotes a layered, responsibility-driven architecture. It focuses on structure and separation of concerns.
+
+## When to Use This
+
+- **Read if:** You need to understand how to structure a backend
+- **Reference if:** You're deciding where a new piece of code belongs
+- **Skip if:** You're implementing a specific feature (see Backend Patterns or Modules)
 
 ---
 
@@ -40,3 +48,11 @@ Most early projects fail because architecture is:
 - Hard to evolve
 
 Forgebase makes architecture **visible and intentional**.
+
+---
+
+## Next Reads
+
+1. [Guides: Backend Patterns](Backend.md) — Learn patterns for each layer
+2. [Guides: Security](Security.md) — See how to secure this architecture
+3. [Examples: Basic Backend](../Examples/Basic-Backend/README.md) — See working implementations

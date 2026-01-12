@@ -1,8 +1,14 @@
 # Opinionated Decisions
 
-Forgebase makes decisions so builders do not have to.
+## Context
 
-These opinions exist to prevent common failure modes seen in early-stage projects.
+Forgebase makes deliberate design choices to prevent common failure modes in early-stage backend projects. This document lists core opinions and explains why they exist.
+
+## When to Use This
+
+- **Read if:** You want to understand the reasoning behind Forgebase's design constraints
+- **Reference if:** You're considering deviating from Forgebase patterns and need to weigh tradeoffs
+- **Skip if:** You've already accepted Forgebase's philosophy and want implementation details
 
 ---
 
@@ -82,3 +88,11 @@ Forgebase trades early convenience for long-term stability.
 Opinions are not limitations.
 
 They are guardrails.
+
+---
+
+## Next Reads
+
+1. [Tradeoffs](Tradeoffs.md) — Understand what you gain and lose by adopting Forgebase
+2. [Architecture Overview](../Architecture/Overview.md) — See how these opinions shape system design
+3. [Guides Overview](../Guides/Overview.md) — See how these opinions translate to implementation

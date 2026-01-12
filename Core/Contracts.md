@@ -1,6 +1,14 @@
 # Core Contracts
 
-Forgebase is built on **contracts**, not abstractions.
+## Context
+
+Forgebase is built on contracts, not abstractions. This document defines the minimum capabilities every Forgebase backend must support.
+
+## When to Use This
+
+- **Read if:** You're implementing a Forgebase backend
+- **Reference if:** You need to verify your implementation meets core requirements
+- **Skip if:** You're just learning Forgebase concepts
 
 ## Required Backend Capabilities
 
@@ -19,3 +27,11 @@ Every Forgebase backend MUST support:
    - Traceable changes
 
 These contracts are validated through EduBro.
+
+---
+
+## Next Reads
+
+1. [Modules: Auth](../Modules/Auth.md) — See Auth Identity implementation
+2. [Guides: Architecture](../Guides/Architecture.md) — Understand where contracts are enforced
+3. [Examples: Basic Backend](../Examples/Basic-Backend/README.md) — See contracts in action

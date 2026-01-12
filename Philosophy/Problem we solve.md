@@ -1,8 +1,14 @@
 # The Problem Forgebase Solves
 
-Building a backend should not feel harder than building the product itself.
+## Context
 
-Yet for students, solo founders, and early-stage teams, backend development often becomes a blocker instead of an enabler.
+This document explains why Forgebase exists: to make backend development approachable for students, solo founders, and early-stage teams. It frames the problem that Forgebase is designed to solve.
+
+## When to Use This
+
+- **Read if:** You're evaluating whether Forgebase is right for your situation
+- **Reference if:** You're defending the need for structured backend thinking
+- **Skip if:** You already understand the motivation and want to learn Forgebase itself
 
 ---
 
@@ -134,3 +140,11 @@ Forgebase is opinionated by design.
 
 Clarity beats convenience.  
 Systems beat shortcuts.
+
+---
+
+## Next Reads
+
+1. [Core Principles](Core-Principles.md) — See the foundational values guiding Forgebase
+2. [The Forgebase Approach](Forgebase%20Approach.md) — See how Forgebase solves this problem
+3. [Opinionated Decisions](Opinionated%20Decisions.md) — See the specific decisions that address these problems

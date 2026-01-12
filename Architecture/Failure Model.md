@@ -1,9 +1,15 @@
 
 # Failure Model
 
-Failure is inevitable. Confusion is not.
+## Context
 
-Forgebase treats failure as a first-class design concern.
+Failure is inevitable. Confusion is not. Forgebase treats failure as a first-class design concern by designing how systems fail.
+
+## When to Use This
+
+- **Read if:** You need to understand how Forgebase handles errors and failures
+- **Reference if:** You're designing error handling or recovery strategies
+- **Skip if:** You're implementing features normally (see Guides instead)
 
 ---
 
@@ -58,3 +64,11 @@ They become part of the learning system, not hidden incidents.
 ---
 
 Forgebase fails in ways that teach, not confuse.
+
+---
+
+## Next Reads
+
+1. [Architecture Overview](Overview.md) — See where failure handling fits
+2. [Data Flow](Data-Flow.md) — Understand failures in the context of data movement
+3. [Guides: Operations](../Guides/Operations.md) — Learn operational best practices

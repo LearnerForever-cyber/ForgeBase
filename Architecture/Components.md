@@ -1,9 +1,14 @@
 # Core Components
 
-Forgebase is composed of a small number of **well-defined components**.  
-Each component has a clear responsibility and minimal overlap with others.
+## Context
 
-This document explains *what exists* — not how it is implemented.
+Forgebase is composed of well-defined components, each with clear responsibility. This document lists what exists and explains its role in the system.
+
+## When to Use This
+
+- **Read if:** You need to understand what components Forgebase consists of
+- **Reference if:** You're deciding where a new responsibility belongs
+- **Skip if:** You're not thinking about system architecture
 
 ---
 
@@ -96,3 +101,11 @@ If a responsibility cannot be clearly assigned, the component design is reconsid
 ---
 
 **Forgebase components exist to reduce mental load, not increase flexibility for its own sake.**
+
+---
+
+## Next Reads
+
+1. [Architecture Overview](Overview.md) — See how these components fit together
+2. [Data Flow](Data-Flow.md) — See how data moves between components
+3. [Design Decisions](Design%20Decisions.md) — Understand why these components are organized this way

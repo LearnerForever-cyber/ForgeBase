@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 17 24 39;
+    --muted: 243 244 246;
+    --muted-foreground: 107 114 128;
+    --border: 229 231 235;
+  }
+  
+  .dark {
+    --background: 17 24 39;
+    --foreground: 243 244 246;
+    --muted: 31 41 55;
+    --muted-foreground: 156 163 175;
+    --border: 55 65 81;
+  }
+  
+  * {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+  
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-600 rounded;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-gray-500;
+  }
+  
+  /* Markdown content styling */
+  .prose code {
+    @apply text-sm font-mono bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded;
+  }
+  
+  .prose pre {
+    @apply bg-gray-900 dark:bg-black;
+  }
+  
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+}

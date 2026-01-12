@@ -1,8 +1,14 @@
 # The Forgebase Approach
 
-Forgebase is built on a simple idea:
+## Context
 
-Backend systems should be **understood**, not just used.
+This document explains how Forgebase applies its core principles to backend development. It defines the philosophy that drives architecture, guides, and examples throughout the platform.
+
+## When to Use This
+
+- **Read if:** You want to understand why Forgebase makes the choices it does
+- **Reference if:** You're debating design decisions and need philosophical grounding
+- **Skip if:** You're looking for concrete implementation steps (see Guides instead)
 
 ---
 
@@ -103,3 +109,11 @@ It does not optimize for:
 Forgebase is not trying to be everything.
 
 It is trying to be **reliable**.
+
+---
+
+## Next Reads
+
+1. [Opinionated Decisions](Opinionated%20Decisions.md) — See which specific decisions flow from this approach
+2. [Architecture Overview](../Architecture/Overview.md) — See how this philosophy shapes system design
+3. [Guides Overview](../Guides/Overview.md) — See how these principles translate to practical work

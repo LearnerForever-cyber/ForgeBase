@@ -1,6 +1,14 @@
 # Backend Patterns
 
-Forgebase backend patterns are **simple by design**.
+## Context
+
+This guide explains the fundamental backend patterns that Forgebase recommends. These patterns address APIs, databases, authentication, and realtime features.
+
+## When to Use This
+
+- **Read if:** You're designing a new backend or refactoring an existing one
+- **Reference if:** You're deciding between implementation options
+- **Skip if:** You need implementation details (see Examples or Modules)
 
 ---
 
@@ -35,3 +43,11 @@ Forgebase backend patterns are **simple by design**.
 - Event-driven, not chatty
 - Subscriptions scoped to user context
 - Realtime is optional, not mandatory
+
+---
+
+## Next Reads
+
+1. [Guides: Architecture](Architecture.md) — Understand the layered system design
+2. [Guides: Security](Security.md) — Learn how to secure these patterns
+3. [Examples: Basic Backend](../Examples/Basic-Backend/README.md) — See working implementations

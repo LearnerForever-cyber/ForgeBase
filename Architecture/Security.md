@@ -1,8 +1,14 @@
 # Security Model
 
-Forgebase security is designed to be **predictable, minimal, and explicit**.
+## Context
 
-This document covers principles, not implementation details.
+Forgebase security is designed to be predictable, minimal, and explicit. This document covers security principles, not implementation details.
+
+## When to Use This
+
+- **Read if:** You need to understand Forgebase's security assumptions
+- **Reference if:** You're making decisions about data protection or access control
+- **Skip if:** You're implementing business logic (see Guides instead)
 
 ---
 
@@ -71,3 +77,11 @@ Advanced threat mitigation evolves only when needed.
 ---
 
 **Security exists to protect clarity as much as data.**
+
+---
+
+## Next Reads
+
+1. [Architecture Overview](Overview.md) — See where security fits in the system
+2. [Guides: Security Model](../Guides/Security.md) — Learn how to implement security
+3. [Modules: Auth](../Modules/Auth.md) — See authentication module details

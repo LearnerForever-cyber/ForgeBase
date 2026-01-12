@@ -1,6 +1,14 @@
 # Customization Guide
 
-Forgebase is meant to be adapted.
+## Context
+
+Forgebase is meant to be adapted. This guide explains what to customize and what to preserve when tailoring Forgebase to your product.
+
+## When to Use This
+
+- **Read if:** You're planning to diverge from Forgebase patterns
+- **Reference if:** You're uncertain whether a change will break core assumptions
+- **Skip if:** You're building without customization
 
 ---
 
@@ -29,3 +37,11 @@ Forgebase is meant to be adapted.
 4. Evolve architecture gradually
 
 Forgebase is a **starting point, not a cage**.
+
+---
+
+## Next Reads
+
+1. [Philosophy: Opinionated Decisions](../Philosophy/Opinionated%20Decisions.md) — Understand why certain things shouldn't change
+2. [Architecture: Extensibility](../Architecture/Extensibility.md) — See how the system grows
+3. [Guides: Overview](Overview.md) — Understand what Forgebase is before customizing

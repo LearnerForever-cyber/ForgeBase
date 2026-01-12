@@ -1,8 +1,14 @@
 # Setup Guide
 
-Forgebase itself is documentation-first, but it assumes you are working on a backend-enabled project.
+## Context
 
-This guide explains how to prepare your environment to **use Forgebase effectively**.
+Forgebase itself is documentation-first, but it assumes you're working on a backend-enabled project. This guide helps you prepare your environment to use Forgebase effectively.
+
+## When to Use This
+
+- **Read if:** You're setting up a new project and want to use Forgebase
+- **Reference if:** You're unclear on prerequisites or tooling
+- **Skip if:** Your environment is already set up
 
 ---
 
@@ -38,3 +44,10 @@ Forgebase assumes:
 - You prefer **clarity over speed**
 - You want **long-term maintainability**
 - You are willing to say “no” to unnecessary features
+---
+
+## Next Reads
+
+1. [Guides: Overview](Overview.md) — Understand what Forgebase is
+2. [Guides: Architecture](Architecture.md) — Learn the layered approach
+3. [Guides: Backend Patterns](Backend.md) — Start implementing

@@ -1,9 +1,14 @@
 # Forgebase Overview
 
-Forgebase is a **docs-first backend foundation** designed for students, indie builders, and early-stage startups who want to build serious systems without getting lost in backend complexity.
+## Context
 
-Forgebase is not a framework.  
-It is a **set of proven backend patterns, architectural decisions, and starter modules** that can be adapted to different products.
+This guide explains what Forgebase is and how its different pieces connect. It's a roadmap for navigating the rest of the documentation and understanding where to start.
+
+## When to Use This
+
+- **Read if:** You're new to Forgebase or deciding where to start
+- **Reference if:** You're looking for the right guide for your task
+- **Skip if:** You already know what you're looking for
 
 ---
 
@@ -42,3 +47,11 @@ Your product decides *what* to build.
 - Not a one-size-fits-all solution
 
 It is **opinionated, not restrictive**.
+
+---
+
+## Next Reads
+
+1. [Guides: Architecture](Architecture.md) — Understand layered architecture patterns
+2. [Guides: Backend Patterns](Backend.md) — Learn specific implementation patterns
+3. [Examples: Basic Backend](../Examples/Basic-Backend/README.md) — See a working reference

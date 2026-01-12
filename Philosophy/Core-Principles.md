@@ -1,8 +1,14 @@
 # Core Principles
 
-Forgebase is not just a toolset — it is a way of thinking about systems.
+## Context
 
-These principles guide every design and architectural choice.
+Forgebase is not just a toolset — it is a way of thinking about systems. These principles guide every design and architectural choice. Understanding them is essential before exploring architecture, guides, or examples.
+
+## When to Use This
+
+- **First read if:** You're new to Forgebase or evaluating whether it fits your philosophy
+- **Reference if:** You're making design decisions and need to align with Forgebase values
+- **Skip if:** You already know what Forgebase stands for and want to dive into implementation
 
 ---
 
@@ -68,6 +74,14 @@ Forgebase aims to feel:
 - Quiet
 - Stable
 - Trustworthy
+
+---
+
+## Next Reads
+
+1. [The Forgebase Approach](Forgebase%20Approach.md) — See how these principles are applied to backend design
+2. [The Problem Forgebase Solves](Problem%20we%20solve.md) — Understand the real-world context these principles address
+3. [Opinionated Decisions](Opinionated%20Decisions.md) — See specific design choices that flow from these principles
 
 No unnecessary alerts, noise, or visual chaos.
 

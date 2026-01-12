@@ -7,9 +7,15 @@ last_updated: 2026-01-03
 
 # Data Flow
 
-This document describes **how information moves** through Forgebase at a high level.
+## Context
 
-It focuses on understanding, not protocols or optimization.
+This document describes how information moves through Forgebase at a high level. It focuses on understanding data flow, not implementation protocols or optimization.
+
+## When to Use This
+
+- **Read if:** You need to understand how requests and information move through the system
+- **Reference if:** You're debugging unexpected behavior or designing new features
+- **Skip if:** You're learning a specific feature (see Guides instead)
 
 ---
 
@@ -73,3 +79,11 @@ If a flow cannot be drawn simply, it is redesigned.
 ---
 
 **Forgebase data flow is designed to be explainable on a whiteboard.**
+
+---
+
+## Next Reads
+
+1. [Architecture Overview](Overview.md) — See where data flow fits in the larger system
+2. [Components](Components.md) — Understand the components data flows between
+3. [Design Decisions](Design%20Decisions.md) — See why this data flow was chosen

@@ -1,7 +1,14 @@
 # Architecture Overview
 
-Forgebase is designed as a **doc-first developer platform** that prioritizes clarity, modularity, and scalability.  
-This document explains the *big picture* — what systems exist, how they interact, and the architectural principles behind them.
+## Context
+
+Forgebase is designed as a **doc-first developer platform** that prioritizes clarity, modularity, and scalability. This document explains the big picture—what systems exist, how they interact, and why they're structured this way.
+
+## When to Use This
+
+- **Read if:** You need to understand how Forgebase's pieces fit together
+- **Reference if:** You're designing features or extensions that need to integrate with Forgebase
+- **Skip if:** You're learning a specific topic (use Guides instead)
 
 ---
 
@@ -164,3 +171,11 @@ Those live elsewhere.
 
 **Forgebase architecture exists to reduce confusion, not add abstraction.  
 If a system cannot be explained simply, it does not belong here.**
+
+---
+
+## Next Reads
+
+1. [Components](Components.md) — See what systems exist and their responsibilities
+2. [Data Flow](Data-Flow.md) — Understand how data moves through the system
+3. [Backend Patterns Guide](../Guides/Backend.md) — See how to implement Forgebase patterns
